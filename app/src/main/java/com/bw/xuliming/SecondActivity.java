@@ -11,6 +11,7 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.TextView;
 
 import com.bw.base.BaseActivity;
 
@@ -22,7 +23,7 @@ import com.bw.base.BaseActivity;
 public class SecondActivity extends BaseActivity {
 
     private WebView web;
-
+TextView textView;
     @Override
     protected void initView() {
         web = findViewById(R.id.web);
